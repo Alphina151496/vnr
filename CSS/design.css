@@ -1,5 +1,8 @@
 Main css
 
-<body style="background-color:red;">
+body {
+  background-color: lightblue;
+}
+
 
 </body>
