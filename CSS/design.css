@@ -2,3 +2,9 @@ Main css
 
 <p style="background: blue; color: white;">
 </p>
+.tekstbox img {
+            width: 260px;
+            height: 260px;
+            border: 10px solid black;
+            float: right;
+            margin: 10px;
