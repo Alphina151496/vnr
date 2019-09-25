@@ -24,21 +24,24 @@ p {
 <h1>Dit ben <span style="color:red">ik</span></h1>
 
 <div class="mijn naam">
-<h2>Ik ben <span style="color:darkblue">Aimée Pruis</span></h2>
-<p>en ik ben 15.Ik woon in kropswolde.</p>
+<h3>Ik ben <span style="color:darkblue">Aimée Pruis</span></h3>
+<h3>en ik ben 15.Ik woon in kropswolde.</h3>
 <img src="selfie aimee.jpg" alt="foto" width="300" height="200">
 </div>
 
-<p>
-<h3>Mijn opa heeft zelf een boot gebouwd. Toen hij klaar was moest de boot nog een naam,
+<div class="iets over mij">
+<h3>>Mijn opa heeft zelf een boot gebouwd. Toen hij klaar was moest de boot nog een naam,
 ik was toen bijna geboren en heeft de boot toen naar mij genoemd. Dus nu heet de boot
 <a href="https://f.jwwb.nl/public/6/0/1/staverse-jol-aimee/Frankrijk2008.jpg" title="De Aimée">de Aimée.</a></h3>
 <h3>Ik doe ook aan sport namelijk hockey. Ik hockey in Hoogezand bij de club
 <a href="https://www.mhcdash.nl/site/default.asp?m=4&Option=101&teamnummer=939" title="Dash">Dash.</a>
 Ik zit in B3.</h3>
-</p>
+</div>
+
+<div class="nog iets over mij">
 <h3>Ik houd echt heel veel van dieren maar ik heb en mag geen huisdier.
-Mijn lieverlingsdier is de panda. </h3>
+Mijn lieverlingsdier is de panda.</h3>
+</div>
 <img src="https://images0.persgroep.net/rcs/yUMN5sSNK_dEgJs68404f_SD6GM/diocontent/112780442/_crop/0/96/1600/904/_fitwidth/1240?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.9".jpg width="300" height="200"/>
 
 </body>
@@ -46,12 +49,28 @@ Mijn lieverlingsdier is de panda. </h3>
 
 
 
-<div class="cities">
-<h2>Paris</h2>
-<p>Paris is the capital of France.</p>
-</div>
 
-<div class="cities">
-<h2>Tokyo</h2>
-<p>Tokyo is the capital of Japan.</p>
-</div>
+
+
+
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+.main {
+  text-align: center;
+}
+</style>
+<body>
+
+<h2>Multiple Classes</h2>
+<p>All three headers have the class name "city". In addition, London also have the class name "main", which center-aligns the text.</p>
+
+<h2 class="city main">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+</body>
