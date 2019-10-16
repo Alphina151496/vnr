@@ -5,13 +5,26 @@ html {
 body {
     background-color: blueviolet;
 }
+    </div>
 #balk {
-    background-color: white;
-    width: 80%;
-    height: 15%
-}
+    width:80%;
+    height: 20%;
+    }
 #container {
     background-color: yellow;
     width: 80%;
-    height: 75%
+    height: 75%;
+    display: flex;
 }
+#menu {
+    width: 15%;
+    height: 100%;
+    }
+    #berichten {
+    width: 60%;
+    height: 100%;
+    }
+    #plaatjes {
+    width: 25%;
+    height: 100%;
+    }
