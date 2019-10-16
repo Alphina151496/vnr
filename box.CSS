@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: blueviolet;
+}
+#balk {
+    background-color: white;
+    width: 80%;
+    height: 15%
+}
+#container {
+    background-color: yellow;
+    width: 80%;
+    height: 75%
+}
