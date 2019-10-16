@@ -7,6 +7,7 @@ body {
 }
     </div>
 #balk {
+    background-color: whitesmoke;
     width:80%;
     height: 20%;
     }
@@ -17,14 +18,17 @@ body {
     display: flex;
 }
 #menu {
+    background-color: blue;
     width: 15%;
     height: 100%;
     }
-    #berichten {
-    width: 60%;
-    height: 100%;
+#berichten {
+     background-color: grey;
+     width: 60%;
+     height: 100%;
     }
     #plaatjes {
+    background-color: greenyellow;
     width: 25%;
     height: 100%;
     }
