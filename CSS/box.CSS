@@ -63,16 +63,15 @@ li a:hover:not(.active) {
     width: 25%;
     height: 70%;
     }
-.jongstejeugd {
-    background-color: purple;
 
 
-#berichten {
+#nieuws {
      background-color: grey;
      width: 50%;
      height: 70%;
-    }
-#plaatjes {
+}
+
+#sponsoren {
     background-color: royalblue;
     width: 25%;
     height: 70%;
